@@ -11,7 +11,7 @@ Por exemplo: se o usuário digitar a palavra "LONDRINA“, a saída deverá ser
 int main()
 {
     int i,j,inttam; 
-    char frase[100],conversao[100]; // declaração de vetores
+    char frase[100],conversao[100]; 
     
     
     
@@ -26,8 +26,8 @@ int main()
     
     for ( i=0,j=0;i <= inttam; i++) 
     {
-        conversao[j]=frase; // conversao na posicao j recebendo frase na posicao i
-        conversao[j+1]=frase; // conversao na posicao j+1 recebendo frase na posicao i novamente.
+        conversao[j]=frase; 
+        conversao[j+1]=frase; 
         j=j+2; 
                
     }
